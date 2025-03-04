@@ -308,6 +308,8 @@ a:focus {
   overflow-x: auto; /* Enables horizontal scrolling */
   padding-bottom: 20px; /* Add some space at the bottom */
   scroll-snap-type: x mandatory; /* Snap to each card */
+  height: 800px;
+  
 }
 
 .horizontal-scroll-container .row {
@@ -329,6 +331,7 @@ a:focus {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
   border-radius: 15px;
   transition: transform 0.3s ease;
+  height:600px;
 }
 
 .blog_section .box .img-box {
